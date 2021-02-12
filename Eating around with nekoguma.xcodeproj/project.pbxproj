@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB48006B25C41D5500D9DF61 /* UserIconSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48006A25C41D5500D9DF61 /* UserIconSetViewController.swift */; };
+		FB4FEDBD25BEF10800810397 /* SetUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4FEDBC25BEF10800810397 /* SetUserInfoViewController.swift */; };
+		FB541970253C406C0037EF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54196F253C406C0037EF24 /* AppDelegate.swift */; };
+		FB541972253C406C0037EF24 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FB541971253C406C0037EF24 /* art.scnassets */; };
+		FB541974253C406C0037EF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB541973253C406C0037EF24 /* ViewController.swift */; };
+		FB541977253C406C0037EF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB541975253C406C0037EF24 /* Main.storyboard */; };
+		FB541979253C406D0037EF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB541978253C406D0037EF24 /* Assets.xcassets */; };
+		FB54197C253C406D0037EF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB54197A253C406D0037EF24 /* LaunchScreen.storyboard */; };
+		FB541987253C406D0037EF24 /* Eating_around_with_nekogumaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB541986253C406D0037EF24 /* Eating_around_with_nekogumaTests.swift */; };
+		FB541992253C406D0037EF24 /* Eating_around_with_nekogumaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB541991253C406D0037EF24 /* Eating_around_with_nekogumaUITests.swift */; };
+		FB5419A6253C43FA0037EF24 /* CaffeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5419A5253C43FA0037EF24 /* CaffeMapViewController.swift */; };
+		FB5419B6253C55220037EF24 /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5419B5253C55220037EF24 /* ShopListViewController.swift */; };
+		FB5419BB253C579F0037EF24 /* ShopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5419BA253C579F0037EF24 /* ShopInfoViewController.swift */; };
+		FB7F3BBA25B471BF0034D4BB /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F3BB925B471BF0034D4BB /* MypageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB541983253C406D0037EF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB541964253C406C0037EF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB54196B253C406C0037EF24;
+			remoteInfo = "Eating around with nekoguma";
+		};
+		FB54198E253C406D0037EF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB541964253C406C0037EF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB54196B253C406C0037EF24;
+			remoteInfo = "Eating around with nekoguma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB48006A25C41D5500D9DF61 /* UserIconSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIconSetViewController.swift; sourceTree = "<group>"; };
+		FB4FEDBC25BEF10800810397 /* SetUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUserInfoViewController.swift; sourceTree = "<group>"; };
+		FB54196C253C406C0037EF24 /* Eating around with nekoguma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eating around with nekoguma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB54196F253C406C0037EF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB541971253C406C0037EF24 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FB541973253C406C0037EF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB541976253C406C0037EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB541978253C406D0037EF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB54197B253C406D0037EF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB54197D253C406D0037EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB541982253C406D0037EF24 /* Eating around with nekogumaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eating around with nekogumaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB541986253C406D0037EF24 /* Eating_around_with_nekogumaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eating_around_with_nekogumaTests.swift; sourceTree = "<group>"; };
+		FB541988253C406D0037EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54198D253C406D0037EF24 /* Eating around with nekogumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eating around with nekogumaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB541991253C406D0037EF24 /* Eating_around_with_nekogumaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eating_around_with_nekogumaUITests.swift; sourceTree = "<group>"; };
+		FB541993253C406D0037EF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5419A5253C43FA0037EF24 /* CaffeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeMapViewController.swift; sourceTree = "<group>"; };
+		FB5419B5253C55220037EF24 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
+		FB5419BA253C579F0037EF24 /* ShopInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopInfoViewController.swift; sourceTree = "<group>"; };
+		FB7F3BB925B471BF0034D4BB /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB541969253C406C0037EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54197F253C406D0037EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54198A253C406D0037EF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB541963253C406C0037EF24 = {
+			isa = PBXGroup;
+			children = (
+				FB54196E253C406C0037EF24 /* Eating around with nekoguma */,
+				FB541985253C406D0037EF24 /* Eating around with nekogumaTests */,
+				FB541990253C406D0037EF24 /* Eating around with nekogumaUITests */,
+				FB54196D253C406C0037EF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB54196D253C406C0037EF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB54196C253C406C0037EF24 /* Eating around with nekoguma.app */,
+				FB541982253C406D0037EF24 /* Eating around with nekogumaTests.xctest */,
+				FB54198D253C406D0037EF24 /* Eating around with nekogumaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB54196E253C406C0037EF24 /* Eating around with nekoguma */ = {
+			isa = PBXGroup;
+			children = (
+				FB54196F253C406C0037EF24 /* AppDelegate.swift */,
+				FB541971253C406C0037EF24 /* art.scnassets */,
+				FB541973253C406C0037EF24 /* ViewController.swift */,
+				FB541975253C406C0037EF24 /* Main.storyboard */,
+				FB7F3BB925B471BF0034D4BB /* MypageViewController.swift */,
+				FB4FEDBC25BEF10800810397 /* SetUserInfoViewController.swift */,
+				FB48006A25C41D5500D9DF61 /* UserIconSetViewController.swift */,
+				FB5419B5253C55220037EF24 /* ShopListViewController.swift */,
+				FB5419BA253C579F0037EF24 /* ShopInfoViewController.swift */,
+				FB5419A5253C43FA0037EF24 /* CaffeMapViewController.swift */,
+				FB541978253C406D0037EF24 /* Assets.xcassets */,
+				FB54197A253C406D0037EF24 /* LaunchScreen.storyboard */,
+				FB54197D253C406D0037EF24 /* Info.plist */,
+			);
+			path = "Eating around with nekoguma";
+			sourceTree = "<group>";
+		};
+		FB541985253C406D0037EF24 /* Eating around with nekogumaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB541986253C406D0037EF24 /* Eating_around_with_nekogumaTests.swift */,
+				FB541988253C406D0037EF24 /* Info.plist */,
+			);
+			path = "Eating around with nekogumaTests";
+			sourceTree = "<group>";
+		};
+		FB541990253C406D0037EF24 /* Eating around with nekogumaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB541991253C406D0037EF24 /* Eating_around_with_nekogumaUITests.swift */,
+				FB541993253C406D0037EF24 /* Info.plist */,
+			);
+			path = "Eating around with nekogumaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB54196B253C406C0037EF24 /* Eating around with nekoguma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB541996253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekoguma" */;
+			buildPhases = (
+				FB541968253C406C0037EF24 /* Sources */,
+				FB541969253C406C0037EF24 /* Frameworks */,
+				FB54196A253C406C0037EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eating around with nekoguma";
+			productName = "Eating around with nekoguma";
+			productReference = FB54196C253C406C0037EF24 /* Eating around with nekoguma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB541981253C406D0037EF24 /* Eating around with nekogumaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB541999253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekogumaTests" */;
+			buildPhases = (
+				FB54197E253C406D0037EF24 /* Sources */,
+				FB54197F253C406D0037EF24 /* Frameworks */,
+				FB541980253C406D0037EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB541984253C406D0037EF24 /* PBXTargetDependency */,
+			);
+			name = "Eating around with nekogumaTests";
+			productName = "Eating around with nekogumaTests";
+			productReference = FB541982253C406D0037EF24 /* Eating around with nekogumaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB54198C253C406D0037EF24 /* Eating around with nekogumaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB54199C253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekogumaUITests" */;
+			buildPhases = (
+				FB541989253C406D0037EF24 /* Sources */,
+				FB54198A253C406D0037EF24 /* Frameworks */,
+				FB54198B253C406D0037EF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB54198F253C406D0037EF24 /* PBXTargetDependency */,
+			);
+			name = "Eating around with nekogumaUITests";
+			productName = "Eating around with nekogumaUITests";
+			productReference = FB54198D253C406D0037EF24 /* Eating around with nekogumaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB541964253C406C0037EF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FB54196B253C406C0037EF24 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FB541981253C406D0037EF24 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FB54196B253C406C0037EF24;
+					};
+					FB54198C253C406D0037EF24 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FB54196B253C406C0037EF24;
+					};
+				};
+			};
+			buildConfigurationList = FB541967253C406C0037EF24 /* Build configuration list for PBXProject "Eating around with nekoguma" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB541963253C406C0037EF24;
+			productRefGroup = FB54196D253C406C0037EF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB54196B253C406C0037EF24 /* Eating around with nekoguma */,
+				FB541981253C406D0037EF24 /* Eating around with nekogumaTests */,
+				FB54198C253C406D0037EF24 /* Eating around with nekogumaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB54196A253C406C0037EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB541972253C406C0037EF24 /* art.scnassets in Resources */,
+				FB54197C253C406D0037EF24 /* LaunchScreen.storyboard in Resources */,
+				FB541979253C406D0037EF24 /* Assets.xcassets in Resources */,
+				FB541977253C406C0037EF24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB541980253C406D0037EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54198B253C406D0037EF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB541968253C406C0037EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5419BB253C579F0037EF24 /* ShopInfoViewController.swift in Sources */,
+				FB5419B6253C55220037EF24 /* ShopListViewController.swift in Sources */,
+				FB4FEDBD25BEF10800810397 /* SetUserInfoViewController.swift in Sources */,
+				FB5419A6253C43FA0037EF24 /* CaffeMapViewController.swift in Sources */,
+				FB7F3BBA25B471BF0034D4BB /* MypageViewController.swift in Sources */,
+				FB48006B25C41D5500D9DF61 /* UserIconSetViewController.swift in Sources */,
+				FB541974253C406C0037EF24 /* ViewController.swift in Sources */,
+				FB541970253C406C0037EF24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54197E253C406D0037EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB541987253C406D0037EF24 /* Eating_around_with_nekogumaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB541989253C406D0037EF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB541992253C406D0037EF24 /* Eating_around_with_nekogumaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB541984253C406D0037EF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB54196B253C406C0037EF24 /* Eating around with nekoguma */;
+			targetProxy = FB541983253C406D0037EF24 /* PBXContainerItemProxy */;
+		};
+		FB54198F253C406D0037EF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB54196B253C406C0037EF24 /* Eating around with nekoguma */;
+			targetProxy = FB54198E253C406D0037EF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB541975253C406C0037EF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB541976253C406C0037EF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB54197A253C406D0037EF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB54197B253C406D0037EF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB541994253C406D0037EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB541995253C406D0037EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB541997253C406D0037EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = "Eating around with nekoguma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekoguma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB541998253C406D0037EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = "Eating around with nekoguma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekoguma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB54199A253C406D0037EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				INFOPLIST_FILE = "Eating around with nekogumaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekogumaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eating around with nekoguma.app/Eating around with nekoguma";
+			};
+			name = Debug;
+		};
+		FB54199B253C406D0037EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				INFOPLIST_FILE = "Eating around with nekogumaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekogumaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eating around with nekoguma.app/Eating around with nekoguma";
+			};
+			name = Release;
+		};
+		FB54199D253C406D0037EF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				INFOPLIST_FILE = "Eating around with nekogumaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekogumaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eating around with nekoguma";
+			};
+			name = Debug;
+		};
+		FB54199E253C406D0037EF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X27NR8SZ78;
+				INFOPLIST_FILE = "Eating around with nekogumaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Eating-around-with-nekogumaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eating around with nekoguma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB541967253C406C0037EF24 /* Build configuration list for PBXProject "Eating around with nekoguma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB541994253C406D0037EF24 /* Debug */,
+				FB541995253C406D0037EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB541996253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekoguma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB541997253C406D0037EF24 /* Debug */,
+				FB541998253C406D0037EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB541999253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekogumaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54199A253C406D0037EF24 /* Debug */,
+				FB54199B253C406D0037EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB54199C253C406D0037EF24 /* Build configuration list for PBXNativeTarget "Eating around with nekogumaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54199D253C406D0037EF24 /* Debug */,
+				FB54199E253C406D0037EF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB541964253C406C0037EF24 /* Project object */;
+}
